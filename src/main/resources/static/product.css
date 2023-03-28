@@ -1,0 +1,205 @@
+
+body {
+
+    background-color: #F6F5EC;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-box: content;
+
+}
+
+#direct {
+
+    margin-left: 450px;
+    background: #AB7C73;
+    color: white;
+    display: inline-block;
+}
+
+#menuProd {
+
+    list-style: none;
+    margin-top: 6vh;
+
+}
+
+#menuProd li {
+
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 4vw;
+    color: #AB7C73;
+    float: right;
+
+}
+
+#menuProd li :hover {
+
+    transition: 0.5s;
+    font-size: 5vh;
+    text-shadow: 2vh 2vh 3vh black;
+    border: none;
+
+}
+
+#menuProd a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #AB7C73;
+
+}
+
+#topMainProd {
+
+     width: 100%;
+     height: 15vh;
+     display: inline-block;
+
+}
+
+#topLeftProd {
+
+     width: 38vw;
+       height: 12vh;
+       display: inline-block;
+
+
+}
+
+#topRightProd {
+
+     width: 58vw;
+     height: 12vh;
+     display: inline-block;
+     font-size: 3vh;
+
+}
+
+* {
+    background-color: #E6DAD1;
+}
+
+.textfontProd {
+
+    color: #AB7C73;
+    font-family: Cursive;
+    font-style: italic;
+
+}
+
+.applogosProd {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.textfontProd {
+
+    display: inline-block;
+
+}
+
+.logoProd {
+
+      margin-top: 1vh;
+        margin-left: 1vw;
+        max-width: 80px;
+        max-height: 80px;
+}
+
+.logoProd img {
+
+         max-width: 80px;
+           max-height: 80px;
+           display: block;
+           float: left;
+           margin: 0;
+
+}
+
+.titleProd img {
+
+    margin-left: 2vw;
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin-top: 4vh;
+    margin-left: 8vw;
+
+}
+
+.impInfoProd {
+
+  background-color: #AB7C73;
+     width: 85vw;
+     height: 70vh;
+     margin: auto;
+     margin-top: 2vh;
+     padding: 27px;
+     border: none;
+     border-radius: 8px;
+     margin-bottom: 2vh;
+
+}
+
+figure{
+font-size: 14px;
+max-width: 40%;
+display: inline-block;
+background-color: #AB7C73;
+}
+
+figure:not(:nth-child(2n)){
+margin-right: 5%;
+}
+
+figcaption{
+background-color: #AB7C73;
+display: block;
+min-width: 30%;
+
+
+}
+
+.bookPhoto{
+width:30%;
+height: 50%;
+}
+
+footer {
+
+    width: 100%;
+    height: 20vh;
+    background-color: #E6DAD1;
+    margin: 0;
+    padding: 0;
+
+}
+
+.myDivProd {
+
+    margin: 0;
+    margin-top: 150px;
+    border: 10px double #E6DAD1;
+    background-color: #E6DAD1;
+    text-align: start;
+    lenght: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttonProd {
+
+    color: #AB7C73;
+
+}
+
+

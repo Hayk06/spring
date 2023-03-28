@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejanish | Products </title>
+  <link rel="stylesheet" href="../static/product.css" type="text/css">
+  <link rel="icon" href="../static/pictures/logo%20without%20name.png">
+
+</head>
+
+<body>
+
+<div id="topMainProd">
+  <div id="topLeftProd">
+    <div class="logoProd">
+      <img src="../static/pictures/logo%20without%20name.png">
+    </div>
+    <div class="titleProd">
+      <img src="../static/pictures/logo%20only%20name.png">
+    </div>
+  </div>
+  <div id="topRightProd">
+    <nav>
+      <ul id="menuProd">
+        <li><a th:href="@{/sign_in}">Sign in</a></li>
+        <li><a th:href="@{/product}">Products</a></li>
+        <li><a th:href="@{/about_us}">About us</a></li>
+        <li><a th:href="@{/home}">Home </a> </li>
+      </ul>
+    </nav>
+  </div>
+
+</div>
+
+<div class="impInfoProd">
+
+   <figure>
+  <img src="../static/pictures/book%20baiden.jpeg" class="bookPhoto">
+   <figcaption>Չորս օր ամբողջ աշխարհը շունչը պահած
+     սպասում էր ընտրությունների ելքին, որի արդյունքում
+     դեմոկրատ Ջո Բայդենը հաղթում է՝ դիմակայելով
+     որոտաձայն Դոնալդ Թրամփին։ Ժան–Բեռնար Կադյեն
+     հետևում է ԱՄՆ 46–րդ նախագահի քարոզարշավին՝
+     իր հայրենի Սքրենթոնից մինչև Սպիտակ տուն:
+     Նոյեմբերի 7, 2020, ժամը 11:25. անհամբեր
+     սպասումներից հետո Բայդենը հայտարարվում
+     է ԱՄՆ նախագահական ընտրությունների հաղթող։</figcaption>
+   </figure>
+
+  <figure>
+  <img src="../static/pictures/harry.jpeg" class="bookPhoto" >
+  <figcaption>Ծնողներին կորցնելուց հետո Հարրի Փոթերն ապրում է
+    մորաքրոջ ընտանիքի հետ, որտեղ տղային հալածում են,
+    նվաստացնում և գրեթե կիսաքաղց պահում: Սակայն երբ
+    լրանում է Հարրիի տասնմեկ տարին, նրան հրավիրում են
+    Հոգվորթս՝ աներևակայելի մի դպրոց, որտեղ կարող են
+    սովորել միայն բացառիկ՝ կախարդական ունակություններով
+    օժտված պատանիներն ու աղջիկները: Այստեղ Հարրի Փոթերին
+    սպասում է բոլորովին նոր` անհավանական արկածներով
+    ու փորձություններով հարուստ կյանք:</figcaption>
+  </figure>
+
+
+</div>
+
+
+<div class="myDivProd">
+
+  <div>
+
+    <img class="applogosProd" src="../static/pictures/phone.png">
+    <h2 class="textfontProd"> Phone Number: 077 45 78 90 </h2>
+    <br>
+    <img class="applogosProd" src="../static/pictures/homelogo.png">
+    <h2 class="textfontProd">Our address: Hakob Hakobyan 3</h2>
+
+  </div>
+
+  <form>
+
+    <label for="question" class="textfontProd">Feedback: </label>
+    <input type="text" id="question" name="fname" size="60"><br><br>
+    <label for="lname" class="textfontProd" >Your Mail: </label>
+    <input type="text" id="lname" name="lname"  placeholder="yourEmail@gmail.com" size="59"><br><br>
+    <label for="fname" class="textfontProd">Any Opinions: </label>
+    <input type="text" id="fname" name="fname" size="56">
+    <button onclick="required()">Send</button>
+
+  </form>
+
+
+  <div class="icons-footerProd">
+
+    <a href="https://www.instagram.com/yoorahatook/"> <img class="applogosProd" src="../static/pictures/instalogo.png"></a>
+    <a href="https://www.facebook.com/ejanish"> <img class="applogosProd" src="../static/pictures/facelogo.png"></a>
+    <img class="applogosProd" src="../static/pictures/twitterlogo.png">
+    <img class="applogosProd" src="../static/pictures/whatsapplogo.png">
+
+  </div>
+
+</div>
+<script src="../js/contactForm.js"></script>
+</body>
+
+</html>
