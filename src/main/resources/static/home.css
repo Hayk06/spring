@@ -1,0 +1,191 @@
+body {
+
+    background-color: #F6F5EC;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-box: content;
+}
+
+h1 {
+
+    font-family: Cursive;
+    display: inline-block;
+    font-style: italic;
+    margin: 0;
+    margin-left: 20px;
+    font-size: 8vh;
+    position: relative;
+    bottom: 4vh;
+
+}
+
+#menu {
+
+    list-style: none;
+    margin-top: 6vh;
+
+}
+
+#menu li {
+
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 4vw;
+    color: #AB7C73;
+    float: right;
+
+}
+
+#menu li :hover {
+
+    transition: 0.5s;
+    font-size: 5vh;
+    text-shadow: 2vh 2vh 3vh black;
+    border: none;
+
+}
+
+#menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #AB7C73;
+
+}
+
+#topMain {
+
+    width: 100vw;
+    height: 15vh;
+    display: inline-block;
+
+}
+
+#topLeft {
+
+    width: 38vw;
+    height: 12vh;
+    display: inline-block;
+
+}
+
+#topRight {
+
+    width: 58vw;
+    height: 12vh;
+    display: inline-block;
+    font-size: 3vh;
+
+}
+
+* {
+    background-color: #E6DAD1;
+}
+
+.textfont {
+
+    color: #AB7C73;
+    font-family: Cursive;
+    font-style: italic;
+    display: inline-block;
+}
+
+.applogos {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.logo {
+
+    margin-top: 1vh;
+    margin-left: 1vw;
+    max-width: 80px;
+    max-height: 80px;
+
+}
+
+.logo img {
+
+    max-width: 80px;
+    max-height: 80px;
+    display: block;
+    float: left;
+    margin: 0;
+
+}
+
+.title img {
+
+    margin-left: 2vw;
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin-top: 4vh;
+    margin-left: 8vw;
+
+}
+
+.impInfo {
+
+    background-color: #AB7C73;
+    width: 85vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 2vh;
+    padding: 27px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+
+}
+
+footer {
+
+    width: 100%;
+    height: 20vh;
+    background-color: #E6DAD1;
+    margin: 0;
+    padding: 0;
+
+}
+
+.myDiv {
+
+    margin: 0;
+    margin-top: 150px;
+    border: 10px double #E6DAD1;
+    background-color: #E6DAD1;
+    text-align: start;
+    lenght: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button{
+
+    color: #AB7C73;
+
+}
+
+.book{
+    width: 23%;
+    height: 10%;
+    float: left;
+
+}
+.impInfo p{
+    background-color: #AB7C73;
+    color: white;
+    width: 800px;
+    padding: 30px;
+    font-size:20px;
+    float: left;
+}

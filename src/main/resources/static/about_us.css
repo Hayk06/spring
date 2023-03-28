@@ -1,0 +1,193 @@
+
+
+
+body {
+
+    background-color: #F6F5EC;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-box: content;
+
+}
+
+#menuTwo {
+
+    list-style: none;
+    margin-top: 6vh;
+
+}
+#topRightTwo {
+
+    width: 58vw;
+    height: 12vh;
+    display: inline-block;
+    font-size: 3vh;
+}
+
+#topMainTwo {
+
+    width: 100%;
+    height: 15vh;
+    display: inline-block;
+
+
+}
+
+#topLeftTwo {
+
+    width: 38vw;
+    height: 12vh;
+    display: inline-block;
+
+}
+
+#menuTwo li {
+
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 4vw;
+    color: #AB7C73;
+    float: right;
+
+}
+#menuTwo a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #AB7C73;
+
+}
+* {
+    background-color: #E6DAD1;
+}
+
+#menuTwo li :hover {
+
+    transition: 0.5s;
+    font-size: 5vh;
+    text-shadow: 2vh 2vh 3vh black;
+    border: none;
+
+}
+
+.textfontTwo {
+
+    color: #AB7C73;
+    font-family: Cursive;
+    font-style: italic;
+
+}
+
+.applogosTwo {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.textfontTwo {
+
+    display: inline-block;
+
+}
+
+.logoTwo {
+
+    margin-top: 1vh;
+    margin-left: 1vw;
+    max-width: 80px;
+    max-height: 80px;
+
+}
+
+.logoTwo img {
+
+    max-width: 80px;
+    max-height: 80px;
+    display: block;
+    float: left;
+    margin: 0;
+
+}
+
+.titleTwo img {
+
+   margin-left: 2vw;
+       max-width: 200px;
+       max-height: 200px;
+       display: block;
+       margin-top: 4vh;
+       margin-left: 8vw;
+
+}
+
+.aboutUsInfo {
+    background-color: #AB7C73;
+    width: 85vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 2vh;
+    padding: 27px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+}
+
+.aboutUsInfo img {
+    background-color: #AB7C73;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 15%;
+    padding: 20px;
+}
+
+.aboutUsInfo p{
+    background-color: #AB7C73;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.aboutUsInfo h2{
+    text-decoration: underline;
+    background-color: #AB7C73;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+
+    width: 100%;
+    height: 20vh;
+    background-color: #E6DAD1;
+    margin: 0;
+    padding: 0;
+
+}
+
+.myDivTwo {
+
+    margin: 0;
+    margin-top: 150px;
+    border: 10px double #E6DAD1;
+    background-color: #E6DAD1;
+    text-align: start;
+    lenght: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttonTwo {
+
+    color: #AB7C73;
+
+}
+

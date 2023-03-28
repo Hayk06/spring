@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejanish | Home Page </title>
+    <link rel="stylesheet" href="../static/home.css" type="text/css">
+    <link rel="icon" href="../html/pictures/logo%20without%20name.png">
+
+</head>
+
+<body>
+
+<div id="topMain">
+    <div id="topLeft">
+        <div class="logo">
+            <img src="../static/pictures/logo%20without%20name.png">
+        </div>
+        <div class="title">
+            <img src="../static//pictures/logo%20only%20name.png">
+        </div>
+    </div>
+    <div id="topRight">
+    <nav>
+        <ul id="menu">
+            <li><a th:href="@{/sign_in}">Sign in</a></li>
+            <li><a th:href="@{/product}">Products</a></li>
+            <li><a th:href="@{/about_us}">About us</a></li>
+            <li><a th:href="@{/home}">Home </a> </li>
+        </ul>
+    </nav>
+    </div>
+
+</div>
+
+<div class="impInfo">
+    <div style="margin-left: 70px; margin-top: 20px">
+        <img src="../static//pictures/srcharan.jpg" class="book">
+    </div>
+    <div>
+        <p style="margin-left: 50px">«Միայն դու իսկապես գիտես, թե ինչ ես ուզում քո գոյությունից: Երբևէ թույլ մի տվեք երևույթներին կամ մարդկանց ձեզ
+            հասցնել
+            մի կետի, որտեղ կզգաք, որ այլևս վերահսկողություն չունեք ձեր սեփական ճակատագրի վրա: Ակտիվ եղեք ձեր ճանապարհն
+            ընտրելիս,
+            այլապես այն կընտրեն ձեր փոխարեն»:
+        </p>
+        <p style="margin-left: 50px">«Կյանքն ինքը մի հրաշալի պատմություն է: Խնդիրն այն է, որ մենք երբեմն մոռանում ենք, որ ինքներս ենք դրա հեղինակը ու
+            կարող ենք այն գրել այնպես, ինչպես ուզում ենք»:
+        </p>
+        <p style="margin-left: 50px">«Եթե ներդաշնակության մեջ չես այն ամենի հետ, ինչ ուզում ես անել, կարող ես էներգիադ վատնել շատ այլ ավելորդ բաների վրա»:</p>
+    </div>
+</div>
+
+<div class="myDiv">
+
+    <div>
+
+        <img class="applogos" src="../static/pictures/phone.png">
+        <h2 class="textfont"> Phone Number: 077 45 78 90 </h2>
+        <br>
+        <img class="applogos" src="../static/pictures/homelogo.png">
+        <h2 class="textfont">Our address: Hakob Hakobyan 3</h2>
+
+    </div>
+
+    <form>
+
+        <label for="question" class="textfont" id="feedback">Feedback: </label>
+        <input type="text" id="question" name="fname" size="60"><br><br>
+        <label for="lname" class="textfont" id="email">Your Mail: </label>
+        <input type="text" id="lname" name="lname"  placeholder="yourEmail@gmail.com" size="59"><br><br>
+        <label for="fname" class="textfont">Any Opinions: </label>
+        <input type="text" id="fname" name="fname" size="56">
+        <button onclick="required()">Send</button>
+
+    </form>
+
+    <div class="icons-footer">
+
+        <a href="https://www.instagram.com/yoorahatook/"> <img class="applogos" src="../static/pictures/instalogo.png"></a>
+        <a href="https://www.facebook.com/ejanish"> <img class="applogos" src="../static/pictures/facelogo.png"></a>
+        <img class="applogos" src="../static/pictures/twitterlogo.png">
+        <img class="applogos" src="../static/pictures/whatsapplogo.png">
+
+    </div>
+
+</div>
+<script src="../js/contactForm.js"></script>
+</body>
+</html>
