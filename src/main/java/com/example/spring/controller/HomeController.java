@@ -16,4 +16,18 @@ public class HomeController {
         return "home";
     }
 
+    @GetMapping("/about_us")
+    public String aboutUs(){
+        return "about_us";
+    }
+    @GetMapping("/product")
+    public String product(){
+        return "product";
+    }
+
+    @GetMapping("/sign_in")
+    public String signIn(){
+        return "sign_in";
+    }
+
 }
