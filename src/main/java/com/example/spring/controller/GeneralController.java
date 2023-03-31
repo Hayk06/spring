@@ -21,8 +21,14 @@ public class GeneralController {
         return "about_us";
     }
 
-    @GetMapping("/products")
+    @GetMapping("/product")
     public String products() {
-        return "products";
+        return "product";
     }
+
+    @GetMapping("/sign_in")
+    public String signIn() {
+        return "sign_in";
+    }
+
 }

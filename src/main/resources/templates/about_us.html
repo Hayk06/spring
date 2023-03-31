@@ -4,12 +4,12 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejanish | About Us </title>
-    <link rel="stylesheet" href="../static/about_us.css" type="text/css">
-    <link rel="icon" href="../static/pictures/logo%20without%20name.png">
-    <script src="../js/contactForm.js"></script>
+    <link rel="stylesheet" th:href="@{about_us.css}" type="text/css">
+    <link rel="icon" href="/pictures/logo%20without%20name.png">
 </head>
 
 <body>
@@ -18,10 +18,10 @@
 
     <div id="topLeftTwo">
         <div class="logoTwo">
-            <img src="../static/pictures/logo%20without%20name.png">
+            <img src="/pictures/logo%20without%20name.png">
         </div>
         <div class="titleTwo">
-            <img src="../static/pictures/logo%20only%20name.png">
+            <img src="/pictures/logo%20only%20name.png">
         </div>
     </div>
     <div id="topRightTwo">
@@ -30,7 +30,7 @@
                 <li><a th:href="@{/sign_in}">Sign in</a></li>
                 <li><a th:href="@{/product}">Products</a></li>
                 <li><a th:href="@{/about_us}">About us</a></li>
-                <li><a th:href="@{/home}">Home </a> </li>
+                <li><a th:href="@{/home}">Home </a></li>
             </ul>
         </nav>
     </div>
@@ -38,13 +38,22 @@
 </div>
 
 <div class="aboutUsInfo">
-    <img src="../static/pictures/logo%20book%20piece.png">
+    <img src="/pictures/logo%20book%20piece.png">
     <h2>About Us</h2>
-    <p>Welcome to our book store, where literature and knowledge come to life. We are passionate about books and believe that every person should have access to great literature. That's why we have curated a diverse collection of books that caters to all reading interests, from fiction to non-fiction, and everything in between.</p>
-    <p>Our store is more than just a place to buy books; it's a community of book lovers who share a love for reading and learning. We host regular events such as author readings, book clubs, and workshops to create a space for people to connect, learn, and grow.
-        Our knowledgeable staff is always on hand to help you find the perfect book or to recommend a new author that you'll love. We pride ourselves on providing excellent customer service and ensuring that every person who walks through our doors feels welcomed and valued.
-        We believe that books have the power to transform lives, inspire creativity, and spark new ideas. That's why we are committed to promoting reading and literacy in our community. We work closely with local schools and organizations to provide books and resources to those who need them the most.
-    <p>Thank you for choosing our book store as your go-to destination for all things literary. We look forward to helping you discover your next favorite book.</p>
+    <p>Welcome to our book store, where literature and knowledge come to life. We are passionate about books and believe
+        that every person should have access to great literature. That's why we have curated a diverse collection of
+        books that caters to all reading interests, from fiction to non-fiction, and everything in between.</p>
+    <p>Our store is more than just a place to buy books; it's a community of book lovers who share a love for reading
+        and learning. We host regular events such as author readings, book clubs, and workshops to create a space for
+        people to connect, learn, and grow.
+        Our knowledgeable staff is always on hand to help you find the perfect book or to recommend a new author that
+        you'll love. We pride ourselves on providing excellent customer service and ensuring that every person who walks
+        through our doors feels welcomed and valued.
+        We believe that books have the power to transform lives, inspire creativity, and spark new ideas. That's why we
+        are committed to promoting reading and literacy in our community. We work closely with local schools and
+        organizations to provide books and resources to those who need them the most.
+    <p>Thank you for choosing our book store as your go-to destination for all things literary. We look forward to
+        helping you discover your next favorite book.</p>
 </div>
 
 
@@ -52,10 +61,10 @@
 
     <div>
 
-        <img class="applogosTwo" src="../static/pictures/phone.png">
+        <img class="applogosTwo" src="/pictures/phone.png">
         <h2 class="textfontTwo"> Phone Number: 077 45 78 90 </h2>
         <br>
-        <img class="applogosTwo" src="../static/pictures/homelogo.png">
+        <img class="applogosTwo" src="/pictures/homelogo.png">
         <h2 class="textfontTwo">Our address: Hakob Hakobyan 3</h2>
 
     </div>
@@ -74,14 +83,14 @@
 
     <div class="icons-footerTwo">
 
-        <a href="https://www.instagram.com/yoorahatook/"> <img class="applogosTwo" src="../static/pictures/instalogo.png"></a>
-        <a href="https://www.facebook.com/ejanish"> <img class="applogosTwo" src="../static/pictures/facelogo.png"></a>
-        <img class="applogosTwo" src="../static/pictures/twitterlogo.png">
-        <img class="applogosTwo" src="../static/pictures/whatsapplogo.png">
+        <a href="https://www.instagram.com/yoorahatook/"> <img class="applogosTwo"
+                                                               src="/pictures/instalogo.png"></a>
+        <a href="https://www.facebook.com/ejanish"> <img class="applogosTwo" src="/pictures/facelogo.png"></a>
+        <img class="applogosTwo" src="/pictures/twitterlogo.png">
+        <img class="applogosTwo" src="/pictures/whatsapplogo.png">
 
     </div>
 
 </div>
-<script src="../js/contactForm.js"></script>
 </body>
 </html>
